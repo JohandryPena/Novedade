@@ -1,0 +1,27 @@
+C:\Users\johan\source\repos\Modelo\bin\Release\Modelo.dll
+C:\Users\johan\source\repos\Modelo\bin\Release\Modelo.pdb
+C:\Users\johan\source\repos\Modelo\bin\Release\System.Data.Common.dll
+C:\Users\johan\source\repos\Modelo\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Modelo\obj\Release\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\source\repos\Modelo\obj\Release\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Modelo\obj\Release\Modelo.csproj.CopyComplete
+C:\Users\johan\source\repos\Modelo\obj\Release\Modelo.dll
+C:\Users\johan\source\repos\Modelo\obj\Release\Modelo.pdb
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Release\Modelo.dll
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Release\Modelo.pdb
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Release\System.Data.Common.dll
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Release\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Release\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Release\Modelo.csproj.CopyComplete
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Release\Modelo.dll
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Release\Modelo.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Release\Modelo.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Release\Modelo.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Release\System.Data.Common.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Release\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Release\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Release\Modelo.csproj.CopyComplete
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Release\Modelo.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Release\Modelo.pdb

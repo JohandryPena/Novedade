@@ -1,0 +1,37 @@
+C:\Users\johan\source\repos\Datos\bin\Release\Datos.dll
+C:\Users\johan\source\repos\Datos\bin\Release\Datos.pdb
+C:\Users\johan\source\repos\Datos\bin\Release\Modelo.dll
+C:\Users\johan\source\repos\Datos\bin\Release\System.Data.Common.dll
+C:\Users\johan\source\repos\Datos\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Datos\bin\Release\Modelo.pdb
+C:\Users\johan\source\repos\Datos\obj\Release\Datos.csprojAssemblyReference.cache
+C:\Users\johan\source\repos\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Datos\obj\Release\Datos.csproj.CopyComplete
+C:\Users\johan\source\repos\Datos\obj\Release\Datos.dll
+C:\Users\johan\source\repos\Datos\obj\Release\Datos.pdb
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\Datos.dll
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\Datos.pdb
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\Modelo.dll
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\System.Data.Common.dll
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Canguro\Datos\bin\Release\Modelo.pdb
+C:\Users\johan\source\repos\Canguro\Datos\obj\Release\Datos.csprojAssemblyReference.cache
+C:\Users\johan\source\repos\Canguro\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Canguro\Datos\obj\Release\Datos.csproj.CopyComplete
+C:\Users\johan\source\repos\Canguro\Datos\obj\Release\Datos.dll
+C:\Users\johan\source\repos\Canguro\Datos\obj\Release\Datos.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Datos.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Datos.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\EPPlus.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Modelo.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\System.Data.Common.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\System.Data.SqlClient.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Modelo.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\EPPlus.xml
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\obj\Release\Datos.csprojAssemblyReference.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\obj\Release\Datos.csproj.CopyComplete
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\obj\Release\Datos.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Datos\obj\Release\Datos.pdb

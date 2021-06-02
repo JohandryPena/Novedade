@@ -1,0 +1,27 @@
+C:\Users\johan\source\repos\Modelo\bin\Debug\Modelo.dll
+C:\Users\johan\source\repos\Modelo\bin\Debug\Modelo.pdb
+C:\Users\johan\source\repos\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Modelo\obj\Debug\Modelo.dll
+C:\Users\johan\source\repos\Modelo\obj\Debug\Modelo.pdb
+C:\Users\johan\source\repos\Modelo\bin\Debug\System.Data.Common.dll
+C:\Users\johan\source\repos\Modelo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\johan\source\repos\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Debug\Modelo.dll
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Debug\Modelo.pdb
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Debug\System.Data.Common.dll
+C:\Users\johan\source\repos\Canguro\Modelo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Debug\Modelo.dll
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Debug\Modelo.pdb
+C:\Users\johan\source\repos\Canguro\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Debug\Modelo.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Debug\Modelo.pdb
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Debug\System.Data.Common.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Debug\Modelo.dll
+C:\Users\johan\Desktop\Nueva carpeta\Canguro\Modelo\obj\Debug\Modelo.pdb
