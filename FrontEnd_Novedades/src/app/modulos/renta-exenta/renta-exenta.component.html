@@ -1,0 +1,146 @@
+<mat-toolbar style="background-color: dodgerblue;color: white;">
+  <span>Renta Exenta</span>
+  <span class="toolbar-spacer"></span>
+</mat-toolbar>
+
+<div class="container">
+
+  <div class="row" style="padding-top: 1em;">
+    <div class="col-md-8">
+      <mat-form-field class="m">
+        <mat-label>Buscador</mat-label>
+        <input matInput type="text">
+      </mat-form-field>
+    </div>
+
+    <div class="col-md-3">
+      <div class="example-button-container" style="padding-top: 0.6em;">
+        <button mat-mini-fab color="blue" style="color:dodgerblue;float: right;"
+          aria-label="Example icon button with a bookmark icon" (click)="openModal(template)">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Tabla de tados-->
+<div class="mat-elevation-z90">
+
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="nombre">
+      <th mat-header-cell *matHeaderCellDef>Nombre</th>
+      <td mat-cell *matCellDef="let element"> {{element.nombre}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="aft">
+      <th mat-header-cell *matHeaderCellDef> AFT </th>
+      <td mat-cell *matCellDef="let element"> {{element.aft|currency}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="pensionVoluntaria">
+      <th mat-header-cell *matHeaderCellDef> Pension Voluntaria</th>
+      <td mat-cell *matCellDef="let element"> {{element.pensionVoluntaria|currency}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="rentaExenta">
+      <th mat-header-cell *matHeaderCellDef> Renta Exenta</th>
+      <td mat-cell *matCellDef="let element"> {{element.rentaexenta|currency}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="total">
+      <th mat-header-cell *matHeaderCellDef> Total</th>
+      <td mat-cell *matCellDef="let element"> {{element.total|currency}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
+
+
+<ng-template #template>
+  <div class="modal-header">
+      <h4 class="modal-title pull-left" style="color:gray;">Agregar Renta Exenta</h4>
+      <button mat-icon-button aria-label="" aria-label="Close" (click)="modalRef.hide()" (click)="salirModal()">
+          <mat-icon>close</mat-icon>
+      </button>
+  </div>
+
+  <div class="modal-body">
+
+      <div class="row">
+
+          <div class="col-md-6">
+
+              <mat-label style="color:gray">Empleados: </mat-label>
+              <mat-radio-group aria-label="Select an option" style="padding-left: 1em;color: gray;font-size: 12px;" [(ngModel)]="seleOP">
+                  <mat-radio-button value="1" style="padding-right: 1em;" [checked]="1">Nombre</mat-radio-button>
+                  <mat-radio-button value="2">Cedula</mat-radio-button>
+              </mat-radio-group>
+              <br>
+              <ng-select [(ngModel)]="empleadoSelect" (change)="calculos2()" *ngIf="seleOP==1">
+                  <ng-option *ngFor="let item of empleados" [value]="item">{{item.nombre }}</ng-option>
+              </ng-select>
+              <ng-select [(ngModel)]="empleadoSelect" (change)="calculos2()" *ngIf="seleOP==2">
+                  <ng-option *ngFor="let item of empleados" [value]="item">{{item.documento }}</ng-option>
+              </ng-select>
+
+              <mat-form-field class=" m" *ngIf="seleOP==2 || seleOP==1">
+                <mat-label>AFT</mat-label>
+                <input matInput type="number"  placeholder="Ingrese AFT" min="0" value="" [(ngModel)]="postRentaExenta.aft">
+            </mat-form-field>
+
+            <mat-form-field class=" m" *ngIf="seleOP==2 || seleOP==1">
+              <mat-label>Pension Voluntaria</mat-label>
+              <input matInput type="number" placeholder="Ingrese AFT" min="0" value="" [(ngModel)]="postRentaExenta.pensionVoluntaria">
+          </mat-form-field>
+
+          <mat-form-field class=" m" *ngIf="seleOP==2 || seleOP==1">
+            <mat-label>Salario despues de conceptos</mat-label>
+            <input matInput type="number" placeholder="Ingrese AFT" min="0" value="" [(ngModel)]="salario">
+        </mat-form-field>
+          </div>
+          <div class="col-md-1"></div>
+
+          <div class="col-md-5">
+            <div class="col-md-12">
+
+              <mat-label>AFT:</mat-label>
+
+              <mat-label class="letra">{{postRentaExenta.aft|currency}}</mat-label>
+
+          </div>
+          <div class="col-md-12">
+
+            <mat-label>Pension Voluntaria:</mat-label>
+
+            <mat-label class="letra">{{postRentaExenta.pensionVoluntaria|currency}}</mat-label>
+
+        </div>
+        <div class="col-md-12">
+
+          <mat-label>Renta Exenta:</mat-label>
+
+          <mat-label class="letra" >{{((salario-postRentaExenta.rentaexenta-postRentaExenta.aft-postRentaExenta.pensionVoluntaria)*0.25)|currency}}</mat-label>
+
+
+      </div>
+      <div class="col-md-12">
+
+        <mat-label>Total:</mat-label>
+
+        <mat-label class="letra">{{((salario-postRentaExenta.rentaexenta-postRentaExenta.aft-postRentaExenta.pensionVoluntaria)*0.25)+postRentaExenta.pensionVoluntaria+postRentaExenta.aft|currency}}</mat-label>
+
+    </div>
+          </div>
+      </div>
+
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="btn btn-outline-primary " (click)="modalRef.hide()" (click)="guardar()" style="border-radius:20px">Guardar</button>
+      </div>
+  </div>
+</ng-template>
